@@ -19,6 +19,8 @@ class AdminController extends Controller
         $admins = Admin::all();
          return view('admin.index', compact('admins'));
         //return response()->json($admins);
+
+        //update by ashraf kamal
     }
 
     /**
